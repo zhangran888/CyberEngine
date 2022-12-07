@@ -29,6 +29,7 @@ public class HdfsTest {
         conf.set("hadoop.security.authentication", "kerberos");
         conf.set("fs.defaultFS", uri);
         conf.set("hadoop.rpc.protection", "privacy");
+        conf.set("dfs.data.transfer.protection", "privacy");
         UserGroupInformation.setConfiguration(conf);
         UserGroupInformation.loginUserFromKeytab(USER_KEY, KEY_TAB_PATH);
         hdfs = FileSystem.get(conf);
@@ -47,7 +48,7 @@ public class HdfsTest {
 
     @Test
     public void cat() throws Exception {
-        FSDataInputStream in = hdfs.open(new Path(uri + "/test/a.txt"));
+        FSDataInputStream in = hdfs.open(new Path(uri + "/test/hello.txt"));
         IOUtils.copyBytes(in, System.out, 1024);
         hdfs.close();
 //        BufferedReader br = new BufferedReader(new InputStreamReader(in));
