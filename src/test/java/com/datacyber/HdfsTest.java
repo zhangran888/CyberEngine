@@ -22,16 +22,14 @@ public class HdfsTest {
 
     @Before
     public void init() throws Exception {
-        System.setProperty("java.security.krb5.conf",  "hdfs\\krb5.conf");
-        String USER_KEY = "test1/test@CYBEROPS.DATAC.COM";
-        String KEY_TAB_PATH =  "hdfs\\test1-test.keytab";
+        System.setProperty("java.security.krb5.conf",  "krb5.conf");
         Configuration conf = new Configuration();
         conf.set("hadoop.security.authentication", "kerberos");
         conf.set("fs.defaultFS", uri);
         conf.set("hadoop.rpc.protection", "privacy");
         conf.set("dfs.data.transfer.protection", "privacy");
         UserGroupInformation.setConfiguration(conf);
-        UserGroupInformation.loginUserFromKeytab(USER_KEY, KEY_TAB_PATH);
+        UserGroupInformation.loginUserFromKeytab("test3/test@CYBEROPS.DATAC.COM", "test3-test.keytab");
         hdfs = FileSystem.get(conf);
     }
 
@@ -79,7 +77,7 @@ public class HdfsTest {
 
     @Test
     public void copyFromLocalFile() throws Exception {
-        hdfs.copyFromLocalFile(new Path("hello.txt"), new Path("/test/hhh.txt"));
+        hdfs.copyFromLocalFile(new Path("hello.txt"), new Path("/test/hello.txt"));
     }
 
     @Test
