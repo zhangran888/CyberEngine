@@ -44,7 +44,7 @@ public class ZookeeperTest {
 //        System.out.println(new String(data));
 
         System.out.println("==========================================================");
-        byte[] data = zooKeeper.getData("/hbase/4777/master", true, new Stat());
+        byte[] data = zooKeeper.getData("/hbase/4795/master", true, new Stat());
         System.out.println(new String(data, StandardCharsets.UTF_8));
 
 //        List<String> children = zooKeeper.getChildren("/hbase/4777", true);

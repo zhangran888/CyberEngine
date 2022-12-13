@@ -58,11 +58,31 @@
             <artifactId>zookeeper</artifactId>
             <version>3.4.14</version>
         </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.apache.hbase</groupId>-->
+<!--            <artifactId>hbase-client</artifactId>-->
+<!--            <version>2.2.4</version>-->
+<!--            <exclusions>-->
+<!--                <exclusion>-->
+<!--                    <groupId>org.apache.zookeeper</groupId>-->
+<!--                    <artifactId>zookeeper</artifactId>-->
+<!--                </exclusion>-->
+<!--            </exclusions>-->
+<!--        </dependency>-->
+
         <dependency>
-            <groupId>org.apache.hbase</groupId>
+            <groupId>com.datacyber.cyberops</groupId>
             <artifactId>hbase-client</artifactId>
-            <version>2.2.4</version>
+            <version>2.2.4-v1.1.0</version>
         </dependency>
+
+<!--        <dependency>-->
+<!--            <groupId>com.datacyber</groupId>-->
+<!--            <artifactId>hbase-client</artifactId>-->
+<!--            <version>2.2.4</version>-->
+<!--            <scope>system</scope>-->
+<!--            <systemPath>${project.basedir}/hbase-client-2.2.4.jar</systemPath>-->
+<!--        </dependency>-->
 
 
         <!--hive的jdbc连接-->
