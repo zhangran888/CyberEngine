@@ -2,11 +2,7 @@ package com.datacyber.config;
 
 import lombok.Getter;
 
-/**
- * @Description 通用业务异常定义
- * @Author itdl
- * @Date 2022/08/08 10:39
- */
+
 @Getter
 public class BizException extends RuntimeException {
 

@@ -5,27 +5,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f11768b7-b2ec-4685-af61-df7296ddd549" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hive/krb5.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hive/test1-test.keytab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hive/test1.keytab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hive/test2-test.keytab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hive/test2.keytab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hive/test3-test.keytab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hive/test3.keytab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/datacyber/HiveTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/datacyber/config/BaseEnums.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/datacyber/config/BaseJdbcConnParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/datacyber/config/BizException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/datacyber/config/HiveConnUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/datacyber/config/HiveJdbcConnParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/datacyber/config/ResultCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/datacyber/config/SqlUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/datacyber/KafkaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zrtest.keytab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hello.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hbase-22323.keytab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hbase.keytab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello.txt" beforeDir="false" afterPath="$PROJECT_DIR$/记录.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hive/krb5.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hive/test1-test.keytab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hive/test1.keytab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hive/test2-test.keytab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hive/test2.keytab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hive/test3-test.keytab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hive/test3.keytab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jaas.conf" beforeDir="false" afterPath="$PROJECT_DIR$/jaas.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/krb5.conf" beforeDir="false" afterPath="$PROJECT_DIR$/krb5.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/datacyber/HBaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/datacyber/HBaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/datacyber/HdfsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/datacyber/HdfsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/datacyber/HiveTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/datacyber/HiveTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/datacyber/ZookeeperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/datacyber/ZookeeperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/datacyber/config/BaseEnums.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/datacyber/config/BaseEnums.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/datacyber/config/BaseJdbcConnParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/datacyber/config/BaseJdbcConnParam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/datacyber/config/BizException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/datacyber/config/BizException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/datacyber/config/HiveConnUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/datacyber/config/HiveConnUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/datacyber/config/HiveJdbcConnParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/datacyber/config/HiveJdbcConnParam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/datacyber/config/ResultCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/datacyber/config/ResultCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/datacyber/config/SqlUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/datacyber/config/SqlUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/datacyber/HBaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/datacyber/HBaseTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/datacyber/HdfsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/datacyber/HdfsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/datacyber/HiveTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/datacyber/HiveTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/datacyber/ZookeeperTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/datacyber/ZookeeperTest$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/datacyber/ZookeeperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/datacyber/ZookeeperTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test01.keytab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test02.keytab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test03.keytab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zookeeper.keytab" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +62,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -50,6 +78,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
   <component name="ProjectId" id="2IZklJSrXvIQBUFafROXYuNkLrn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -57,38 +88,38 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/workSpace/keberos-test/src/test/java/com/datacyber/config",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "fileTemplates"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="JAVA" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../IdeaProjects/test" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CyberOps-Project\keberos-test\testJar" />
+      <recent name="D:\CyberOps-Project\keberos-test\src\test\resources" />
+      <recent name="D:\CyberOps-Project\keberos-test" />
+      <recent name="D:\CyberOps-Project\keberos-test\target" />
       <recent name="D:\workSpace\keberos-test\src\test\java\com\datacyber\config" />
-      <recent name="D:\workSpace\keberos-test\hive" />
-      <recent name="E:\aa-company\kerberos-test\src\test\resources\hdfs" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CyberOps-Project\keberos-test\src\test\resources" />
+      <recent name="D:\CyberOps-Project\keberos-test" />
       <recent name="E:\aa-company\kerberos-test" />
       <recent name="E:\aa-company\kerberos-test\src\test\resources" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.datacyber.assembly" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.HiveTest">
-    <configuration name="HiveTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.datacyber.HiveTest" />
-      <module name="kerberos-test00" />
+  <component name="RunManager" selected="Application.ApiTest">
+    <configuration name="ApiTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.NoteBook.ApiTest" />
+      <module name="EM-Assembly" />
+      <shortenClasspath name="MANIFEST" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.datacyber.*" />
+          <option name="PATTERN" value="com.NoteBook.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,60 +127,83 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HdfsTest.copyFromLocalFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="kerberos-test" />
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.NoteBook.test" />
+      <module name="EM-Assembly" />
+      <shortenClasspath name="MANIFEST" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.datacyber.*" />
+          <option name="PATTERN" value="com.NoteBook.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.datacyber" />
-      <option name="MAIN_CLASS_NAME" value="com.datacyber.HdfsTest" />
-      <option name="METHOD_NAME" value="copyFromLocalFile" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlinkTest.flinkStandalone" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EM-Assembly" />
+      <shortenClasspath name="MANIFEST" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.datacyber.assembly.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.datacyber.assembly" />
+      <option name="MAIN_CLASS_NAME" value="com.datacyber.assembly.FlinkTest" />
+      <option name="METHOD_NAME" value="flinkStandalone" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HdfsTest.download" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="kerberos-test" />
+    <configuration name="ZookeeperTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EM-Assembly" />
+      <shortenClasspath name="MANIFEST" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.datacyber.*" />
+          <option name="PATTERN" value="com.datacyber.assembly.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.datacyber" />
-      <option name="MAIN_CLASS_NAME" value="com.datacyber.HdfsTest" />
-      <option name="METHOD_NAME" value="download" />
+      <option name="PACKAGE_NAME" value="com.datacyber.assembly" />
+      <option name="MAIN_CLASS_NAME" value="com.datacyber.assembly.ZookeeperTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HdfsTest.ls" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="kerberos-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.datacyber.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.datacyber" />
-      <option name="MAIN_CLASS_NAME" value="com.datacyber.HdfsTest" />
-      <option name="METHOD_NAME" value="ls" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <shortenClasspath name="MANIFEST" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scratch" type="Java Scratch" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Scratch" />
+      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java" />
+      <shortenClasspath name="CLASSPATH_FILE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ApiTest" />
+      <item itemvalue="Application.test" />
+      <item itemvalue="Java Scratch.Scratch" />
+      <item itemvalue="JUnit.FlinkTest.flinkStandalone" />
+      <item itemvalue="JUnit.ZookeeperTest.test" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HiveTest" />
-        <item itemvalue="JUnit.HdfsTest.copyFromLocalFile" />
-        <item itemvalue="JUnit.HdfsTest.download" />
-        <item itemvalue="JUnit.HdfsTest.ls" />
+        <item itemvalue="Application.ApiTest" />
+        <item itemvalue="Application.test" />
+        <item itemvalue="JUnit.ZookeeperTest.test" />
+        <item itemvalue="Java Scratch.Scratch" />
+        <item itemvalue="JUnit.FlinkTest.flinkStandalone" />
       </list>
     </recent_temporary>
   </component>
@@ -183,15 +237,24 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/target/test-classes/com/datacyber/HiveTest.class</url>
-          <line>22</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.net.ConnectException" package="java.net" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.RuntimeException" package="java.lang" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

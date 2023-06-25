@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configuration>
+    <property>
+        <name>ssl.server.truststore.location</name>
+        <value>/opt/hadoop/etc/hadoop/truststore</value>
+    </property>
+    <property>
+        <name>ssl.server.truststore.password</name>
+        <value>truststore</value>
+    </property>
+    <property>
+        <name>ssl.server.truststore.type</name>
+        <value>PKCS12</value>
+    </property>
+    <property>
+        <name>ssl.server.keystore.location</name>
+        <value>/opt/hadoop/etc/hadoop/keystore</value>
+    </property>
+    <property>
+        <name>ssl.server.keystore.password</name>
+        <value>keystore</value>
+    </property>
+    <property>
+        <name>ssl.server.keystore.keypassword</name>
+        <value>keystore</value>
+    </property>
+    <property>
+        <name>ssl.server.keystore.type</name>
+        <value>PKCS12</value>
+    </property>
+    <property>
+        <name>ops.hostPath</name>
+        <value>/etc/cyber-ops/%s/%s/%s/%s/%s</value>
+    </property>
+    <property>
+        <name>ops.virtualPath</name>
+        <value>/opt/hadoop/etc/hadoop/ssl-server.xml</value>
+    </property>
+</configuration>

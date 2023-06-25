@@ -1,10 +1,6 @@
 package com.datacyber.config;
 
-/**
- * @Description
- * @Author itdl
- * @Date 2022/08/08 10:45
- */
+
 public interface BaseEnums<K, V> {
 
     /**

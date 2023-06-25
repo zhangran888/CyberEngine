@@ -1,0 +1,5 @@
+1、涉及对hosts配置："C:\Windows\System32\drivers\etc\hosts"
+2、系统环境变量配置：HADOOP_HOME--> D:\用例\CyberOPS\测试数据\winutils-master\hadoop-3.2.2
+3、执行yarn时，需要更换yarn-site.xml文件
+4、spark 提交任务时，需要更换core-site.xml,hdfs-site.xml,httpfs-site.xml,ssl-client.xml,ssl-server.xml
+5、spark on yarn 需要配置HADOOP_CONF_DIR、SPARK_HOME【HADOOP_CONF_DIR=D:\CyberOps-Project\keberos-test\src\test\resources;SPARK_HOME=D:\用例\CyberOPS\测试数据\winutils-master\spark-3.2.2-bin-hadoop3.2】

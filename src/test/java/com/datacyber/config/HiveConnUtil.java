@@ -8,11 +8,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-/**
- * @Description hive connection util
- * @Author itdl
- * @Date 2022/08/10 16:52
- */
+
 @Slf4j
 public class HiveConnUtil {
     /**

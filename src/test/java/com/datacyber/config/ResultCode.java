@@ -2,11 +2,7 @@ package com.datacyber.config;
 
 import lombok.Getter;
 
-/**
- * @Description
- * @Author itdl
- * @Date 2022/08/08 10:40
- */
+
 @Getter
 public enum ResultCode implements BaseEnums<String, String> {
     /**通用业务返回码定义，系统-编码*/

@@ -4,11 +4,7 @@ import lombok.Data;
 
 import java.io.Serializable;
 
-/**
- * @Description Base JDBC Param
- * @Author itdl
- * @Date 2022/08/10 16:42
- */
+
 @Data
 public class BaseJdbcConnParam implements Serializable {
 

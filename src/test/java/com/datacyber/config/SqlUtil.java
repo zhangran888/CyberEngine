@@ -8,11 +8,7 @@ import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 
-/**
- * @Description SQL执行工具类
- * @Author itdl
- * @Date 2022/08/10 17:13
- */
+
 public class SqlUtil {
 
     private final Connection connection;
@@ -44,6 +40,36 @@ public class SqlUtil {
         }finally {
             // 关闭
             close(resultSet, statement);
+        }
+    }
+
+    /**
+     * 建表
+     * @param sql
+     */
+    public String createTable(String sql){
+        try (Statement statement = connection.createStatement()) {
+            statement.execute(sql);
+            return "创建数据表成功";
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return "创建数据表失败";
+        }
+    }
+
+    /**
+     * 插入、更新、删除数据
+     * INSERT, UPDATE, or DELETE
+     * @param sql
+     * @return
+     */
+    public String operateData(String sql){
+        try (Statement statement = connection.createStatement()) {
+            statement.executeUpdate(sql);
+            return "操作数据表成功";
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return "操作数据表失败";
         }
     }
 
@@ -87,8 +113,6 @@ public class SqlUtil {
 
     /**
      * @Description 功能描述：将resultSet构造为List<Map>
-     * @Author itdl
-     * @Date 2022/4/18 21:13
      * @Param {@link ResultSet} resultSet
      * @Return {@link List < Map <String,Object>>}
      **/
